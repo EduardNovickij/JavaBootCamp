@@ -2,6 +2,7 @@
  * 
  */
 package sef.module3.activity;
+import sef.module4.sample.Person;
 
 
 
@@ -27,7 +28,7 @@ public class Calculator {
 //	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));
 	
-	if 
+	//if
 	
 	}
 
@@ -65,7 +66,7 @@ public class Calculator {
 		if (x == 0 || y == 0) {
 			System.out.println("One of the number is 0, I can't do the divide operation");
 			divValue = 0;
-			return ;
+			return divValue;
 			// complete the code 
 		} else {
 			divValue = x/y;
