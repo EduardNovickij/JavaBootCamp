@@ -15,7 +15,12 @@ void catchMeIfYouCan()
 	
 	for(int i=0;i<=10;i++)
 	{
-		System.out.println(arr[i]);
+		try {
+			System.out.println(arr[i]);
+		}
+		catch(Exception a){
+			System.out.println(a.getMessage());
+		}
 	}
 	
 	

@@ -63,14 +63,14 @@ public class Calculator {
 	}
 
 	// Divide
-	public int divide(int x, int y) {
-		int divValue = 0;
+	public float divide(float x, float y) {
 		if (x == 0 || y == 0) {
-			divValue = 0;
-		} else {
-			divValue = x / y;
+			return 0;
 		}
-		return divValue;
+		else {
+			float divValue = x / y;
+			return divValue;
+		}
 
 	}
 }
