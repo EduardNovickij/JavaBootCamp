@@ -9,7 +9,6 @@ public class AssertSample {
 		
 		assert 5%2 == 3;
 		assert 6%2 == 1;
-		
 	}
 	public static void main(String arg[]){
 		AssertSample.test();

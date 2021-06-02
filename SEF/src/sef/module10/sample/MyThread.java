@@ -4,8 +4,7 @@ package sef.module10.sample;
 class MyThread {
 	
 	int count;
-	MyThread(String s, int count) {
-		super(s);
+	MyThread(int count) {
 		this.count=count;
 	}
 

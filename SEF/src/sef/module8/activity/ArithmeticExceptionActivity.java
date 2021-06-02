@@ -5,7 +5,6 @@ public class ArithmeticExceptionActivity {
 	public static void main(String arg[]){
 		catchMe(10,0);
 		catchMe(10,2);
-		System.out.println("Thank you for using this program.");
 	}
 
 
@@ -13,15 +12,18 @@ static void catchMe(int num1, int num2)
 {
 	//The following code results in an Exception.
 	//2 - Identify the exception and write code to handle this exception.
-	if(num1 == 0 || num2 == 0){
-		System.out.println("One of the numbers is zero.");
-	}
-	else {
+	try {
 		int result = num1 / num2;
 		System.out.println("The result is :" + result);
 	}
+	catch(ArithmeticException a){
+		System.out.println(a.getMessage());
+	}
 	//3 - After handling the exception, write a finally block which
 	//prints a message "Thank you for using this program."
+	finally{
+		System.out.println("Thank you for using this program.");
+	}
 	//4- try to call catchMe with 10 and 2 now and see which messages get printed. 
 	
 }

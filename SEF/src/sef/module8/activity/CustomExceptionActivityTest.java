@@ -11,16 +11,11 @@ public class CustomExceptionActivityTest {
 	//Call this method with different names to test it
     public static void main(String arg[]){
         try {
+            validateUser("John");
             validateUser("Eduard");
         }
         catch(Exception a){
             System.out.println(a.getMessage());
-        };
-        try {
-            validateUser("John");
-        }
-        catch(Exception b){
-            System.out.println(b.getMessage());
         };
     }
 
@@ -46,7 +41,7 @@ if(flag == 0){
 }
 
 //4 - else if flag is one, print a message "Welcome to Payroll program". 
-if(flag == 1){
+else if(flag == 1){
     System.out.println("Welcome to Payroll program");
 }
 }
