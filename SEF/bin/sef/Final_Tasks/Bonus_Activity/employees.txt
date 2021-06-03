@@ -1,0 +1,10 @@
+Janis | Hughes | 17 | Manager | Accenture | 2396.51;
+John | Warren | 81 | Employee | Accenture | 2153.6;
+Eduard | Novickij | 89 | Manager | Accenture | 2101.09;
+Janis | Wood | 65 | Intern | Accenture | 1257.22;
+Janis | Russell | 50 | Manager | Accenture | 1054.6;
+Ilze | Novickij | 30 | Intern | Accenture | 804.24;
+Ilze | Wood | 23 | Manager | Accenture | 450.35;
+Eduard | Novickij | 14 | Employee | Accenture | 429.95;
+Janis | Novickij | 42 | Intern | Accenture | 405.74;
+Mike | Hughes | 23 | Manager | Accenture | 359.03;

@@ -1,0 +1,10 @@
+Valeriy | Russell | 74 | Employee | Accenture | 2197.36;
+Eduard | Warren | 90 | Intern | Accenture | 2135.52;
+John | Carr | 99 | Manager | Accenture | 1964.63;
+Ilze | Carr | 25 | Employee | Accenture | 918.89;
+Eduard | Novickij | 27 | Employee | Accenture | 910.78;
+Ilze | Novickij | 90 | Manager | Accenture | 874.27;
+John | Hughes | 45 | Employee | Accenture | 332.77;
+Eduard | Russell | 17 | Intern | Accenture | 286.98;
+Eduard | Warren | 90 | Manager | Accenture | 241.5;
+Mike | Hughes | 4 | Manager | Accenture | 215.33;
